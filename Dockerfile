@@ -4,7 +4,7 @@ ENV WDIO_VERSION 4.0.7
 ENV WDIO_MOCHA_VERSION 0.2.13
 ENV WDIO_CSS_VERSION 1.1.10
 
-RUN apt-get update && apt-get install -y graphicsmagick
+RUN apt-get update && apt-get install -y g++ build-essential graphicsmagick
 
 RUN mkdir /webdriverio
 
